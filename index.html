@@ -5,7 +5,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+  
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -30,7 +32,10 @@
   text-decoration: none;
   font-size: 17px;
 }
-
+iframe {
+   display: block;
+   margin: 0 auto;
+}
 .topnav a:hover {
   background-color: rgb(168, 95, 236);
   color: black;
@@ -58,18 +63,24 @@
         font-family: 'Anton', sans-serif;
         text-align: center;
         font-size: 50px;
-
-        ;
+        align-items: center
       }
 
       h2{
-        font-family: 'Anton', sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 30px;
+      }
+      .links{
+        display: flex;
+        justify-content: flex-end;
       }
 
       .container{
         display: flex;
         width: 100%;
         flex-wrap: wrap;
+        padding: 0%;
       }
 
       .split{
@@ -77,11 +88,14 @@
         display: flex;
         flex-direction: column;
         padding: 2%;
+        text-align: left;
+        align-items: center;
       }
 
       .split img{
         width: 100%;
         height: auto;
+        align-items: center;
         
       }
 
@@ -109,17 +123,17 @@
   </head>
   <body>
     <div class="topnav">
-      <a class="active" href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#about">About</a>
+      <a href="#events">Events</a>
       <a href="#merch">Merch</a>
       <a href="#contact">Contact</a>
+      <a href="#links">Links</a>
       
     </div>
     
   
     <body style="background-color:black;"></body>
-    <section class="container">
+    <section class="header-img">
       <img src="https://cdn-images.win.gg/resize/w/932/h/420/format/jpg/type/progressive/fit/cover/path/news/7776e88b0c189539098176589250bcba/b9ff635222ebf0a441f3b0c87294c045/original.png" style="height:10%; width:100%"/>
     </section>
 
@@ -128,22 +142,41 @@
     </section>
   
 
-    <section class="container">
-      <div class="split">
+    <section class="container" ><a name = "about"></a>
+      <div class="split img">
         <br></br><br></br>
         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fc6bc1f1-2870-4492-909c-29369011dcf6/dctpv0p-d5cfc08c-c24c-45cc-b842-f04d36edec3e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZmM2YmMxZjEtMjg3MC00NDkyLTkwOWMtMjkzNjkwMTFkY2Y2XC9kY3RwdjBwLWQ1Y2ZjMDhjLWMyNGMtNDVjYy1iODQyLWYwNGQzNmVkZWMzZS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.B2cMH758HhOc-c6elnWABamXVDPUi9n-Gce4KvZywDY" />
       </div>
       <div class="split">
-        <h1>A B O U T &nbsp;&nbsp; U S</h1>
+        <h1> A B O U T &nbsp;&nbsp; U S</h1>
         <p>
-          K/DA is a virtual girl group consisting of four themed versions of League of Legends characters: Ahri, Akali, Evelynn and Kai'Sa. American singers Madison Beer and Jaira Burns and (G)I-dle members Miyeon and Soyeon provide the voices of Evelynn, Kai'Sa, Ahri, and Akali respectively, though Evelynn and Kai'Sa have also been voiced by other artists. K/DA was developed by Riot Games, the company behind League of Legends, and unveiled at the 2018 League of Legends World Championship with an augmented reality live performance of their first song, "Pop/Stars".&nbsp; A music video of the song uploaded to YouTube subsequently went viral, surpassing 100 million views in one month, and reaching over 300 million views, as well as topping Billboard's World Digital Song Sales chart. This would be followed up with the release of a promotional single in August 2020, entitled "The Baddest"
+          K/DA is a virtual girl group consisting of four themed versions of League of Legends characters: Ahri, Akali, Evelynn and Kai'Sa. American singers Madison Beer and Jaira Burns and (G)I-dle members Miyeon and Soyeon provide the voices of Evelynn, Kai'Sa, Ahri, and Akali respectively, though Evelynn and Kai'Sa have also been voiced by other artists. K/DA was developed by Riot Games, the company behind League of Legends, and unveiled at the 2018 League of Legends World Championship with an augmented reality live performance of their first song, "Pop/Stars".&nbsp;&nbsp;&nbsp;&nbsp; A music video of the song uploaded to YouTube subsequently went viral, surpassing 100 million views in one month, and reaching over 300 million views, as well as topping Billboard's World Digital Song Sales chart. This would be followed up with the release of a promotional single in August 2020, entitled "The Baddest"
         </p>
         <a href="https://en.wikipedia.org/wiki/K/DA" target="_blank" class="button">Click here to find out more!</a>
       </div>
+    </section>
+    <br></br>
 
-      <div class = "split">
-        <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1157746228&color=%2314203c&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color:#ffffff00;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/leagueoflegends" title="League of Legends" target="_blank" style="color: #ffffff00; text-decoration: none;">League of Legends</a> · <a href="https://soundcloud.com/leagueoflegends/sets/k-da-all-out" title="K/DA - ALL OUT" target="_blank" style="color: #ffffff00; text-decoration: none;">K/DA - ALL OUT</a></div>
+    <section> <a name = "events"></a>
+      <h1> E V E N T S </h1>
+      <h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; W O R L D S &nbsp;&nbsp; 2 0 1 8</h2>
+      <div class = "worlds">
+      <iframe width="720" height="405" src="https://www.youtube.com/embed/p9oDlvOV3qs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <br></br>
+      <h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; W O R L D S &nbsp;&nbsp; 2 0 2 0</h2>
+      <div class="worlds">
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/yOQ21JsPiV0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </div>
+    </section>
+    <br></br>
+
+    <section><a name = "links"></a>
+      <h1> L I N K S </h1>
+    <div>
+      <iframe width="30%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1157746228&color=%2314203c&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color:#ffffff00;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/leagueoflegends" title="League of Legends" target="_blank" style="color: #ffffff00; text-decoration: none;">League of Legends</a> · <a href="https://soundcloud.com/leagueoflegends/sets/k-da-all-out" title="K/DA - ALL OUT" target="_blank" style="color: #ffffff00; text-decoration: none;">K/DA - ALL OUT</a></div>
+    </div>
     </section>
   </body>
 </html>

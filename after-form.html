@@ -1,0 +1,50 @@
+<title>Thank you for booking us!</title>
+<body>
+<div style="text-align:center;">
+<h1>Thank you for booking us for your event!</h1>
+<br/>
+<p>We have received your message and would like to thank you for booking K/DA for your event! </p>
+<p>We will be sending out an email to the given address shortly to confirm the booking and to discuss further details.</p>
+<p>In the meantime, please do not hesitate to contact us at k/da_event_bookings@gmail.com for any inquiry</p>
+<p>Riot Games</p>
+<br/>
+<br/>
+<br/>
+<span id="timer"></span></div>
+</body>
+<style>
+body {
+	background-image: url("outerspace.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Helvetica, Verdana, sans-serif;
+}
+h1 {
+	color: lightblue;
+	font-size: 40px;
+}
+p {
+	line-height: 1;
+	color: white;
+	font-size: 20px;
+}
+span {
+	color: white;
+	font-size: 15px;
+}
+</style>
+<script type="text/javascript">
+var count = 10;
+var redirect = "othermain1.html";
+function countDown(){
+    var timer = document.getElementById("timer");
+    if(count > 0){
+        count--;
+        timer.innerHTML = "This page will redirect in "+count+" seconds.";
+        setTimeout("countDown()", 1000);
+}else{
+        window.location.href = redirect;
+    }
+}
+countDown();
+</script>

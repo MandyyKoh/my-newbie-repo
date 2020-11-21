@@ -1,0 +1,33 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #a85fec8e;
+    color: black;
+  }
+  
+  .header
+  {position: absolute; top: 0px; left:0px; width: 100% ;
+  padding:0%;
+  margin:0%
+  }
+
+  li a:hover:not(.active) {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .active {
+    background-color: #a05be0
+  }
+ 

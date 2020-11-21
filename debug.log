@@ -650,3 +650,4 @@
 [1119/202924.687:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffc99dc558 of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
 [1119/202924.687:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffc9cc5228 of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
 [1119/202924.691:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1120/171054.778:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

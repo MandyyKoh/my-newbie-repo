@@ -14,13 +14,12 @@
     
   </head>
   <header>
-    <a id="focus" href="#focus"></a>
+    <a id="topnav" href="#topnav"></a>
     <div class="topnav">
       <a href="index.html">Home</a>
-      <a class="active" href="events.html">Events</a>
-      <a href="merch.html">Merch</a>
+      <a class="active" href="events.html#topnav">Events</a>
       <a href="contact.html">Contact</a>
-      <a href="links.html">Links</a>
+      <a href="https://merch.riotgames.com/en-us/collection/kda-allout-collection/" target="_blank">Merch</a>
       <a href="https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/" target="_blank">Official Fan Club</a>
     </header>
     <body>
@@ -33,5 +32,75 @@
     <section class="logo">
       <img src="https://static.wikia.nocookie.net/leagueoflegends/images/6/68/KDA_Logo_1.png/revision/latest/scale-to-width-down/340?cb=20181104035006" style="display:block" />
     </section>
-
+    <div class="whole" style="padding-left:30px">
+      <p> Please fill up this form if you wish to book us for any events </b></p>
+    </div>
+    
+    <div class="whole">
+    <form method="get" action="after-form.html" target="_blank">
+      <link href="storyForm.css" rel="stylesheet" type="text/css">
+    <form>
+    <fieldset>
+      <legend> Event Booking </legend>
+      <p>
+        <label>First name</label>
+        <br/>
+        <br/>
+        <input type="text" name="ownname" placeholder="First Name" required/>
+        <br/>
+        <br/>
+        <label>Last name</label>
+        <br/>
+        <br/>
+        <input type="text" name="ownname" placeholder="Last name" required />
+        <br/>
+        <br/>
+        <label>Type of event</label>
+        <br/>
+        <br/>
+        <select required="required">
+          <option value="bday">Birthday</option>
+          <option value="wedding">Wedding</option>
+          <option value="others">Others</option>
+        </select>
+        <br/>
+        <br/>
+        <label>If you selected others, please specify.</label>
+        <br/>
+        <br/>
+        <input type="text" name="event" placeholder="Other event" autofocus required="no" />
+        <br/>
+        <br/>
+        <label>Did you have any difficulty learning in our classes? If so, please use the textbox to clarify your doubts and queries and we will get back to you.</label>
+        <br/>
+        <br/>
+        <input type="radio" value="yes" required="required" />Yes</input>
+        <br/>
+        <input type="radio" value="no" required="required" />No</input>
+        <br/>
+        <input type="radio" value="idk" />I don't know</input>
+        <br/>
+        <textarea name="difficultyanddoubt" placeholder="Type here..." rows="15" cols="200"></textarea>
+        <br/>
+        <br/>
+        <label>Kindly provide your email address and contact number so that we can get back to you!</label>
+        <br/>
+        <br/>
+        <label>Email Address:</label>
+        <input type="email" name="email" placeholder="Eg. abc@gmail.com"  /><br/>
+        <label>Contact Number:</label>
+        <input placeholder="Eg. 6123 4567" name="contact" maxlength="8" />
+        <br/>
+        <br/>
+        <label>Any comments:</label>
+        <br/>
+        <br/>
+        <textarea name="message" placeholder="Type here..." rows="20" cols="200"></textarea>
+        <br/>
+        <br/>
+        <input type="submit" value="Submit Feedback" />
+        <br/>
+    </fieldset>
+    </form>
+    </div>
     </body>

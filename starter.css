@@ -122,3 +122,6 @@ img {
   margin-right: auto;
   display: block
 }
+.form{
+    width: 100vw;
+}

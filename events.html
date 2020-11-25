@@ -14,6 +14,7 @@
     
   </head>
   <header>
+    <!-- Navigation Bar -->
     <a id="topnav" href="#topnav"></a>
     <div class="topnav">
       <a href="index.html">Home</a>
@@ -23,7 +24,8 @@
       <a href="https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/" target="_blank">Official Fan Club</a>
     </header>
     <body>
-  
+
+    <!-- Header Image & Logo-->
     <body style="background-color:black;"></body>
     <section class="header-img">
       <img src="images/header.jpg" alt="Header image"style="height:10%; width:100%"/>
@@ -32,8 +34,16 @@
     <section class="logo">
       <img src="images/kda_logo.png" alt="Kda logo" style="display:block" />
     </section>
+    <h1 style="font-size:5vw;"> P A S T &nbsp;&nbsp; E V E N T S </h1>
+
+    <!--Event 1 Video-->
+    <h2 style="font-size:3vw;"> W O R L D S &nbsp;&nbsp; 2 0 1 8 </h2>
+    <div class="video-container">
+      <iframe class="center" src="https://www.youtube.com/embed/p9oDlvOV3qs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- Booking Form -->
     <div class="whole" style="padding-left:30px">
-      <p> Please fill up this form if you wish to book us for any events </b></p>
+      <h2 style="font-size: 2vw;"> Please fill up this form if you wish to book us for any events </b></h2>
     </div>
     
     <div class="whole">
@@ -77,13 +87,13 @@
         <label>Email Address:</label>
         <input type="email" name="email" placeholder="Eg. abc@gmail.com" /><br/>
         <label>Contact Number:</label>
-        <input placeholder="Eg. 6123 4567" name="contact" maxlength="8" pattern="[0-9]" required />
+        <input placeholder="Eg. 6123 4567" name="contact" maxlength="8" pattern="[0-9]{8}" required />
         <br/>
         <br/>
         <label>Additional information:</label>
         <br/>
         <br/>
-        <textarea name="message" placeholder="Type here..." rows="10" cols="200"></textarea>
+        <textarea name="message" placeholder="Type here..." rows="10" cols="150"></textarea>
         <br/>
         <br/>
         <input type="submit" value="Submit Feedback" />

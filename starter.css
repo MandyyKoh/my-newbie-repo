@@ -142,3 +142,8 @@ legend {
   padding: 5px 10px;
   font-size: 20px;
 }
+.moveimage
+{
+    position: relative;
+    top: -10px;
+}

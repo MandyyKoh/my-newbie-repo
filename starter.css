@@ -58,13 +58,6 @@ h2{
   font-size: 30px;
 }
 
-@media screen and (max-width:576px){
-  .split{
-    flex: 2 100%;
-    flex-grow: inherit
-  }
-}
-
 /*Home Page*/
 
 img {
@@ -108,6 +101,12 @@ img {
 
 .button {border-radius: 12px;}
 
+@media screen and (max-width:576px){
+  .split{
+    flex: 2 100%;
+    flex-grow: inherit
+  }
+}
 /*make embeded youtube videos responsive*/
 .video-container {
   position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;
@@ -134,11 +133,11 @@ fieldset {
   background-image: url("images/form_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  border-color: #ffffff2d;
+  border-color: #a3a3a34b;
   color: rgb(179, 179, 179)
 }
 legend {
-  background-color: rgba(81, 12, 170, 0);
+  background-color: rgba(81, 12, 170, 0.089);
   color: rgb(209, 209, 209);
   padding: 5px 10px;
   font-size: 20px;

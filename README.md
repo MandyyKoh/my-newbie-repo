@@ -47,7 +47,7 @@ What you will be able to do on this site:
 ## Testing
 
 ### Forms
-The form is the "Events" page has to be manually filled out. If certain fields are not properly filled out, the form will not submit. 
+The form in the "Events" page has to be manually filled out. If certain fields are not properly filled out, the form will not submit. 
 
 - Event booking form:
     - Go to the "Events" page

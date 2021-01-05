@@ -4,7 +4,7 @@ K/DA is an up and coming virtual girl group consisting of four themed versions o
 
 ## Website
 
-This website was created to promote the band those who are fascinated by the thought of virtual bands and
+This website(https://mandyykoh.github.io/my-newbie-repo/) was created to promote the band those who are fascinated by the thought of virtual bands and
 to provide more information on the band to those who already know of it.
 What you will be able to do on this site:
 
